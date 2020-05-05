@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Edit Data</title>
+{% endblock %}
+
+
+{% block body %}
+
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <form action="" method="post">
+                {% csrf_token %}
+            <center><h1>Edit Data</h1></center>
+            <input type="text" class="form-control" name="pName" placeholder="Enter Product Name" value="{{ x.pName }}"><br>
+            <input type="text" class="form-control" name="pPrice" placeholder="Enter Product Name" value="{{ x.pPrice }}"><br>
+            <input type="text" class="form-control" name="pQuantity" placeholder="Enter Product Name" value="{{ x.pQuantity }}"><br>
+            <small>Mfg*</small>
+            <input type="date" class="form-control" name="pMfg" value="{{ x.pMfg |date:'Y-m-d' }}"><br>
+            <small>Exp*</small>
+            <input type="date" class="form-control" name="pExp" value="{{ x.pExp |date:'Y-m-d' }}"><br>
+            <center><button class="btn btn-primary">Update Data</button></center>
+</form>
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+{% endblock %}

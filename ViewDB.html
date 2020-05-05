@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+   <title>View Data</title>
+{% endblock %}
+
+{% block body %}
+  <div class="container">
+ <table class="table table-hover">
+     <thead class="table-dark">
+     <tr>
+         <th>ID</th>
+         <th>Product Name</th>
+         <th>Product Price</th>
+         <th>Product Quantity</th>
+         <th>Product Mfg</th>
+         <th>Product Exp</th>
+         <th>Action</th>
+     </tr>
+     </thead>
+     <tbody>
+     {% for x in result %}
+         <tr>
+         <td>{{ x.id }}</td>
+         <td>{{ x.pName }}</td>
+         <td>{{ x.pPrice }}</td>
+         <td>{{ x.pQuantity }}</td>
+         <td>{{ x.pMfg }}</td>
+         <td>{{ x.pExp }}</td>
+         <td>
+             <a href="{% url 'edit' x.id %}" class="btn btn-primary col-5">Edit</a>
+             <a href="{% url 'delete' x.id %}" class="btn btn-danger col-5">Delete</a>
+         </td>
+     {% endfor %}
+     </tbody>
+ </table>
+  </div>
+{% endblock %}

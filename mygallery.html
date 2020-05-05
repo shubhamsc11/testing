@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Gallery</title>
+{% endblock %}
+
+
+{% block body %}
+    {% load static %}
+    <br>
+    <img  src="{% static '1.jpg.jpg' %}" alt="" style="height: 150px;width: 150px">
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title>Otherpage</title>
+{% endblock %}
+
+
+{% block body %}
+    <div class="container">
+    <h2>Welcome{% if user.is_authenticated %}
+    {{ user.username }}
+        {% else %}
+        Guest!
+    {% endif %}</h2>
+    </div>
+
+{% endblock %}
