@@ -1,0 +1,78 @@
+#include<iostream.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{
+ clrscr();
+ cout<<"- Welcome in our parking management -";
+ cout<<"\n\nCharges -\nFor Rickshaw : 100/- \nFor Car : 200/-\nFor Bus : 300/-";
+ cout<<"\nMaximum 20 vehicles can park here.\n\n";
+
+ int r=0;
+ int c=0;
+ int b=0;
+ int u_input;
+ int amount=0,count=0;
+ //menu-
+ while(count<20)
+ {
+  cout<<"*********************************************************"<<endl;
+  cout<<"Press 1 - For Rickshaw"<<endl;
+  cout<<"Press 2 - For Car"<<endl;
+  cout<<"Press 3 - For Bus"<<endl;
+  cout<<"Press 4 - To show the record"<<endl;
+  cout<<"Press 5 - To delete the record"<<endl;
+  cout<<"Press 6 - For exit"<<endl;
+  cout<<"Enter your choice:";
+  cin>>u_input;
+
+  if(u_input==1)
+  {
+      r=r+1;
+      amount = amount + 100;
+      count = count +1;
+      cout<<"Now total vehicles parked:"<<count<<endl;
+  }
+
+  else if(u_input==2)
+  {
+      c=c+1;
+      amount = amount + 200;
+      count = count +1;
+      cout<<"Now total vehicles parked:"<<count<<endl;
+  }
+
+  else if(u_input==3)
+  {
+
+      b=b+1;
+      amount = amount + 300;
+      count = count + 1;
+      cout<<"Now total vehicles parked:"<<count<<endl;
+
+  }
+  else if(u_input==4)
+  {
+    cout<<"The total amount = "<<amount<<endl;
+    cout<<"The total number of vehicles parked = "<<count<<endl;
+    cout<<"The total number of rickshaw parked = "<<r<<endl;
+    cout<<"The total number of car parked = "<<c<<endl;
+    cout<<"The total number of bus parked = "<<b<<endl;
+  }
+  else if(u_input==5)
+  {
+    amount = 0;
+    count = 0;
+    cout<<"Records has been delete successfully."<<endl;
+  }
+  else if(u_input==6)
+  {
+    exit(0);
+  }
+  else
+  {
+    cout<<"Invalid Input.\n";
+  }
+ }
+ getch();
+}
