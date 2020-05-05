@@ -1,0 +1,260 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{
+clrscr();
+int psw;
+
+char username,ans;
+Y:
+ printf("\t \t \t|| Welcome SAIT School ||");
+ printf("\nUsername:");
+ scanf("%s",&username);
+ printf("\nPassword:");
+ scanf("%d",&psw);
+ if(psw==1234)
+ {
+ printf("\nlogin successfully.");
+ X:
+ printf("\n  Menu:-");
+ printf("\n 1.Student management. \n 2.Staff management. \n 3. Logout. \n 4. Exit.");
+ int menu;
+ printf("\nSelect any one menu: ");
+ scanf("%d",&menu);
+ switch(menu)
+ {
+  case 1:
+   int sel1;
+   printf("\nStudent Management- \n");
+   printf("\n1.Add new student.\n2.Edit student detail.\n3.Delete student.\n4.back.\n5.logout.\n6.Exit.");
+   printf("\nSelect any one: ");
+   scanf("%d",&sel1);
+   switch(sel1)
+   {
+    case 1:
+    char names1[2][10];
+    int roll_numbers1[10],i;
+    float marks1[10];
+    for (i=1;i<=3;i++)
+    {
+     printf("\nEnter the name, roll number, and marks of the student %d:",i);
+     scanf("%s%d%f",&names1[i],&roll_numbers1[i],&marks1[i]);
+    }
+    printf("Printing the Student details :-\n");
+    for (i=1;i<=3;i++)
+    {
+     printf("%s\t%d\t%f\n",names1[i],roll_numbers1[i],marks1[i]);
+    }
+    getch();
+    break;
+
+    case 2:
+    char names2[2][10];
+    int roll_numbers2[10],j;
+    float marks2[10];
+    int age[15];
+    int contactno[20];
+    for (j=1;j<=3;j++)
+    {
+     printf("\nEnter the name, roll number, and marks of the student with age & contactno. %d:",j);
+     scanf("%s%d%f%d%d",&names2[j],&roll_numbers2[j],&marks2[j],&age[j],&contactno[j]);
+    }
+    printf("Printing the Student details :-\n");
+    for (j=1;j<=3;j++)
+    {
+     printf("%s\t%d\t%f\t%d\t%d",names2[j],roll_numbers2[j],marks2[j],age[j],contactno[j]);
+    }
+
+   break;
+
+    case 3:
+     int a[20],x,y,del,count=0;
+     printf("Enter the rollno of the student:");
+     for(x=0; x<5; x++)
+     {
+      scanf("%d",&a[x]);
+     }
+     printf("You entered the rollno of students:");
+     for(x=0; x<5; x++)
+     {
+      printf("%d\n",a[x]);
+     }
+     printf("\nEnter the rollno to be delete:");
+     scanf("%d",&del);
+     for(x=0; x<5; x++)
+     {
+      if(a[x]==del)
+      {
+       for(y=x; y<(5-1); y++)
+       {
+	a[y]=a[y+1];
+       }
+      count++;
+      break;
+     }
+    }
+    if(count==0)
+    {
+     printf("rollno not found.");
+    }
+    else
+    {
+     printf("Rollno deleted successfully..");
+     printf("\nNow the new list of students rollno:");
+     for(x=0; x<(5-1); x++)
+     {
+      printf("%d\n",a[x]);
+     }
+    }
+    getch();
+
+    break;
+
+    case 4:
+      goto X;
+//    break;
+
+    case 5:
+      goto Y;
+//    break;
+
+    case 6:
+      exit(0);
+    break;
+   }
+
+  break;
+
+  case 2:
+     int sel2;
+     printf("\nStaff Management- \n");
+     printf("\n 1.Add new teacher.\n2.Adit teacher detail.\n3.Delete teacher.\n4.back.\n5.logout.\n6.Exit.");
+     printf("\nSelect any one: ");
+     scanf("%d",&sel2);
+     switch(sel2)
+     {
+     case 1:
+	char names1[2][10],dummy1;
+	int s_no1[10],i;
+	float age1[10];
+	for (i=1;i<=3;i++)
+	{
+	 printf("\nEnter the name, serial number, and age of the teacher %d:",i);
+	scanf("%s%d%f",&names1[i],&s_no1[i],&age1[i]);
+//	scanf("%s",&dummy1);
+	}
+	printf("Printing the Teacher details :-\n");
+	for (i=1;i<=3;i++)
+	{
+	 printf("%s\t%d\t%f\n",names1[i],s_no1[i],age1[i]);
+	}
+     break;
+
+     case 2:
+      char names2[2][10],dummy2;
+      int s_no2[10],j;
+      float strength[10];
+      int age2[15];
+      int contactno[20];
+      for (j=1;j<=3;j++)
+      {
+	printf("\nEnter the name, serial number, and strength of the teacher with age & contactno. %d:",j);
+	scanf("%s%d%f%d%d",&names2[j],&s_no2[j],&strength[j],&age2[j],&contactno[j]);
+//	scanf("%d",&dummy2)
+      }
+      printf("Printing the Teachers details :-\n");
+      for (j=1;j<=3;j++)
+      {
+       printf("%s\t%d\t%f\t%d\t%d\n",names2[j],s_no2[j],strength[j],age2[j],contactno[j]);
+      }
+
+     break;
+
+     case 3:
+     int a[20],x,y,del,count=0;
+     printf("Enter the s.no of the teacher:");
+     for(x=0; x<5; x++)
+     {
+      scanf("%d",&a[x]);
+     }
+     printf("You entered the s.no of teachers:");
+     for(x=0; x<5; x++)
+     {
+      printf("%d\n",a[x]);
+     }
+     printf("\nEnter the s.no to be delete:");
+     scanf("%d",&del);
+     for(x=0; x<5; x++)
+     {
+      if(a[x]==del)
+      {
+       for(y=x; y<(5-1); y++)
+       {
+	a[y]=a[y+1];
+       }
+      count++;
+      break;
+     }
+    }
+    if(count==0)
+    {
+     printf("s.no not found.");
+    }
+    else
+    {
+     printf("S.no deleted successfully..");
+     printf("\nNow the new list of teachers s.no:");
+     for(x=0; x<(5-1); x++)
+     {
+      printf("%d\n",a[x]);
+     }
+    }
+    getch();
+
+    break;
+
+    case 4:
+       goto X;
+//     break;
+
+    case 5:
+       goto Y;
+//     break;
+
+    case 6:
+       exit(0);
+     break;
+  }
+ break;
+
+  case 3:
+    printf("You are logout successfully.\n\n");
+     goto Y;
+//  break;
+
+  case 4:
+     exit(0);
+  break;
+  }
+ }
+ else
+ {
+  printf("\nEnter username and password incorrect.\n please try later or again.");
+ }
+  printf("You want again login.\n yes or no:");
+  scanf("%s",&ans);
+  clrscr();
+  int tries = 3;
+  if(ans=='y')
+  {
+   tries --;
+   goto Y;
+  }
+  else
+  {
+   exit(0);
+  }
+// }while(ans=='y' && tries);
+getch();
+}
