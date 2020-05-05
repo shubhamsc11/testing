@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title style="color: red; background-color: black">Play School</title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<style type="text/css">
+	
+		nav{
+			background-color: lightgreen;
+			height:70px;
+			line-height: 70px;
+			width:100%;
+			text-align: center;
+		}
+		li{
+			list-style-type: none;
+			display: inline-block;
+			margin:20px;
+		}
+		a{
+			text-decoration: none;
+			color:white;
+			font-size: 15pt;
+			font-family: sans-serif;
+		}
+		a:hover{
+			color:red;
+			text-decoration: underline;
+		}
+
+		.sec1{
+			background-image: url("https://www.itl.cat/pngfile/big/15-151719_kids-wallpaper-play-school-background-hd.jpg");
+			background-size: cover;
+			height:650px;
+			width:100%;
+		}
+
+		.sec2{
+			background-image: url("https://wallpaperaccess.com/full/2067556.jpg");
+			background-size: cover;
+			height:650px;
+			width:100%;
+		}
+
+		.sec3{
+			background-image: url('https://cdn.hipwallpaper.com/i/16/5/xcvoZO.png');
+			background-size: cover;
+			height:800px;
+			width:100%;
+		}
+		.sec4{
+			
+			background-image: url('https://cdn.hipwallpaper.com/i/53/13/0QgeLb.jpg');
+			background-size: cover;
+			height:800px;
+			width:100%;
+
+		}
+		.sec5{
+			
+			background-image: url('https://hdwallsource.com/img/2013/17/kids-wallpaper-2780.jpg');
+			background-size: cover;
+			height:800px;
+			width:100%;
+
+		}
+		.sec6{
+			
+			background-image: url('https://previews.123rf.com/images/o0matze0o/o0matze0o1805/o0matze0o180500018/101535114-website-and-internet-contact-us-page-concept-with-hanging-icons-in-front-of-a-silver-background.jpg');
+			background-size: cover;
+			height:1000px;
+			width:1600px;
+
+		}
+
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	form{
+	height:650px;
+	width:500px;
+	border:2px solid white;
+	margin-left: 50px;
+	margin-top: 110px;
+	box-shadow: 2px 8px 10px 2px #222;
+	}
+	.formdesign input{
+	padding: 10px;
+	width:400px;
+	margin-top:20px;
+	margin-left:30px;
+	background-color: #92f238;
+	}
+	.formdesign input[type="submit"]{
+	padding: 10px;
+	width:430px;
+		}
+	#img1{
+	margin-left: 150px;
+	}
+		.icon{
+			height:40px;
+			line-height: 40px;
+			padding: 20px;
+			border-radius: 50px;
+		}
+
+	</style>
+	
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="#Home">Home</a></li>
+		<li>||</li>
+		<li><a href="#AboutUs">AboutUs</a></li>
+		<li>||</li>
+		<li><a href="#Faculty">Faculty</a></li>
+		<li>||</li>
+		<li><a href="#Memories">Memories</a></li>
+		<li>||</li>
+		<li><a href="#Classes">Classes</a></li>
+		<li>||</li>
+		<li><a href="#ContactUs">ContactUs</a></li>
+	</ul>
+</nav>
+
+
+<section class="sec1" id="Home">
+	<h1 style="text-align: center;color:#ec6df2;text-decoration: underline;font-weight: bold;">|Welcome In My Play School|</h1>
+	<br>
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS1.jpg" style="height:274px;float:left;" class="animated swing">
+	<p style="color: blue; word-spacing: 10px; lighting-color: red;"><span style="color: red; font-weight: bold;">Play School</span> premiered on 18 July 1966, and was based on a British programme of the same name. The British version of Play School started in 1964 and ended in 1988, the show was sold to Australia. The first episode began transmitting that day, as the programme went out live. It has been produced continuously from this time. It has also launched the careers of several Australian actors and television presenters. Diane Dorgan and Don Spencer are the only regular presenters to appear on both the British and Australian versions, although Lorraine Bayly appeared in September 1972 as a guest storyteller on BBC's Play School. It was admitted to the Logies' Hall of Fame on its 40th anniversary in 2006, in recognition of the strong influence the show has had on at least three generations of Australian children. Play School was the third show to enter the Hall of Fame in its own right, after Four Corners (1992) and Neighbours (2005). It was also the first children's show inducted into the Hall of Fame.</p>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		
+	<h1 style="text-align:center;color:#ec6df2;text-decoration: underline;font-weight: bold;">Aims and Objectives</h1>
+	<br>
+	
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS6.jpg" style="height:274px;float:right;" class="animated swing">
+	<p style="color: blue; word-spacing: 10px; lighting-color: red;"><span style="color: red; font-weight: bold;">In Play School, </span>Start Right Nursery School aims to provide high quality care and education for children and a secure foundation for learning in an encouraging and nurturing environment, where there is an equality of opportunity and support for all and where staff and parents or carers work in close partnership.<br>The main aim of play school is Development of friendships. Development of personal independence, freedom to initiate activities and make choices.Development of self-discipline and self-motivation.Development of children’s self-respect and confidence in their abilities.Good working partnerships between staff and between staff and parents or carers.</p>
+
+</section>
+
+<br>
+
+<section class="sec2" id="AboutUs">
+	<h1 style="text-align: center;color:#51e889;text-decoration: underline;font-weight: bold;">ABOUT THE SCHOOL</h1>
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS4.jpg" style="height:274px;float:left;" class="animated bounceInLeft">
+	<p style="color: blue; word-spacing: 10px; lighting-color: red;" class="animated bounceInRight">
+	The School is located Vithaldas Nagar, Chembur East. We are one of the leading providers of educational services in India operating maximum number of self-operated preschools. Our curriculum and trained teachers reflect our standards of excellence. Each TreeHouse playgroup centre provides an environment which is warm, safe and fun-filled.
+	The pedagogy, Interactive iLLUME, is specifically developed and designed to help children
+	realize their exceptional capabilities in a methodical, synergetic, and self-paced manner.
+	Our training mechanism is designed to arm teachers with practical and effective techniques,
+	which are best suited for kids.<br>A pioneer in ECCE (Early Childhood Care and Education), we are the largest preschool chain in Asia. With an incredible network of more than 1900+ centers in over 750+ cities, we are committed to spearheading child development across the nation. Having touched the lives of more than 9,00,000 children in India, Kidzee, a decade on, remains focussed on nurturing the ‘unique potential’ in every child.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS5.png" style="height:274px;float:right;" class="animated bounceInRight">
+	<p style="color: blue; word-spacing: 10px; lighting-color: red;" class="animated bounceInLeft">
+	Start Right Nursery School is owned and run by Caryll and Peter Ingerslev. Caryll Ingerslev is a qualified teacher who began a small group in her home in June 1988 with her 4-year-old son and some friends’ children. This original group of 6 children grew over the years. Start Right Nursery School is now registered to provide Full Day Care for up to 26 children in each session. Peter Ingerslev, formally an architect, and lecturer, joined Start Right Nursery School full time in 1993. Since then Start Right Nursery School has been managed by Caryll and Peter, and has continued to be run in their family home. This gives it a unique atmosphere as it retains aspects of a home environment as well as being adapted for use as a Full Day Care provider. The local authority funds places for 3 and 4 year olds, and has '2-Year-Old' funding for 2 year olds.</p>
+
+</section>
+
+<br>
+<section class="sec3" id="Faculty">
+	<h1 style="text-align: center;color:#f5f371;text-decoration: underline;font-weight: bold;">Our Faculty</h1>
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS16.jpg"  style="height:300px;width:318px;margin-top: 50px; margin-left: 200px; border-radius: 50px;" class="animated bounceInUp">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS15.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 15px; border-radius: 50px;" class="animated bounceIn">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS18.jpg"  style="height:300px;width:318px;margin-top: 50px; margin-left: 15px; border-radius: 50px;" class="animated bounceIn">
+
+	<br>
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS11.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 200px;border-radius: 50px;" class="animated bounceIn">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS9.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 15px; border-radius: 50px;" class="animated bounceIn">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS19.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 15px; border-radius: 50px;" class="animated bounceIn">
+
+</section>
+
+<br>
+
+
+<section class="sec4" id="Memories">
+	<h1 style="text-align: center;color:#635bc7;text-decoration: underline;font-weight: bold;">Sweet Memories</h1>
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS3.png"  style="height:300px;width:318px;margin-top: 50px; margin-left: 60px; border-radius: 100px;" class="animated shake">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS7.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 10px; border-radius: 100px;" class="animated shake">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS8.jpg"  style="height:300px;width:318px;margin-top: 50px; margin-left: 10px; border-radius: 100px;" class="animated shake">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS10.jpg"  style="height:300px;width:318px;margin-top: 50px; margin-left: 10px; border-radius: 100px;" class="animated shake">
+
+	<br>
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS20.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 60px;border-radius: 100px;" class="animated shake">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS21.jfif" style="height:300px;width:318px;margin-top: 50px; margin-left: 10px; border-radius: 100px;" class="animated shake">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS22.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 10px; border-radius: 100px;" class="animated shake">
+
+	<img src="C:\Users\shubham singh\Desktop\Html\Play School\PS23.jpg" style="height:300px;width:318px;margin-top: 50px; margin-left: 10px; border-radius: 100px;" class="animated shake">
+
+</section>
+
+<br>
+
+<section class="sec5" id="Classes">
+	<h1 style="text-align: center;color:#0511f0;text-decoration: underline;font-weight: bold;" class="animated bounceInRight">Classes</h1>
+	<br>
+
+	<ul type="disc" style="color: black;">
+
+	<h1 style="margin-left: 30px;color:#51e889;text-decoration: underline;font-weight: bold;" class="animated bounceInLeft">LKG</h1>
+	<p style="margin-left: 30px;color:#51e889;" class="animated bounceInLeft">LKG Full Form is Lower Kinder Garten. Almost every child in India goes through LKG as the first step of education.</p>
+
+	<br>
+	
+	<h1 style="margin-left: 80px;color:#635bc7;text-decoration: underline;font-weight: bold;" class="animated bounceInLeft">UKG</h1>
+	<p style="margin-left: 80px;color:#635bc7;" class="animated bounceInLeft"> The first two parts of education which are mandatory for every child to enter the primary education in India are LKG and UKG. UKG refers to Upper Kinder Garten.</p>
+
+	<br>
+	
+	<h1 style="margin-left: 130px;color:#e81e51;text-decoration: underline;font-weight: bold;" class="animated bounceInLeft">NURSERY</h1>
+	<p style="margin-left: 130px;color:#e81e51;" class="animated bounceInLeft">A preschool, also known as nursery school, pre-primary school, playschool or kindergarten, is an educational establishment or learning space offering early childhood education to children before they begin compulsory education at primary school.</p>
+	
+	<br>
+	
+	<h1 style="margin-left: 180px;color:#5acf0c;text-decoration: underline;font-weight: bold;" class="animated bounceInLeft">KG-1</h1>
+	<p style="margin-left: 180px;color:#5acf0c;" class="animated bounceInLeft">According to the new rules by the MoE the new admission age for KG1 should be four years, KG2 is five years and Grade 1 is six years.</p>
+	
+	<br>
+	
+	<h1 style="margin-left: 230px;color:#f05b05;text-decoration: underline;font-weight: bold;" class="animated bounceInLeft">KG-2</h1>
+	<p style="margin-left: 230px;color:#f05b05;" class="animated bounceInLeft">According to the new rules by the MoE the new admission age for should be KG2 is five years and Grade 1 is six years.</p>
+	
+	<br>
+	
+	</ul>
+</section>
+
+<br>
+
+<section class="sec6" id="ContactUs">
+
+<h1 style="text-align: center;color:#ec6df2;text-decoration: underline;font-weight: bold;" class="animated bounceInRight">Contact Us</h1>
+<br>
+	<form style="background-color: #4441f2">
+	<img src="https://img.icons8.com/officel/2x/user.png" id="img1">
+	<h2 style="color: #f2dd41; font-family: sans-serif;font-weight: bold;">If You Are Intrested in this play school to confirm your informaintion.</h2>
+<div class="formdesign">
+	<input type="text" name="" placeholder="Enter your First name.." style="color: white;">
+</div>
+<div class="formdesign">
+	<input type="text" name="" placeholder="Enter your Last name.." style="color: white;">
+</div>
+<div class="formdesign">
+	<input type="text" name="" placeholder="Enter your Email.." style="color: white;">
+</div>
+<div class="formdesign">
+	<input type="text" name="" placeholder="Enter your Adress.." style="color: white;">
+</div>
+<div class="formdesign">
+	<input type="text" name="" placeholder="Enter your Message..." style="color: white;">
+</div>
+<div class="formdesign">
+	<input type="submit" name="" value="Register" style="color: white;">
+</div>
+</form>
+<footer style="height:100px;width:100%;">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Facebook_Shiny_Icon.svg/1024px-Facebook_Shiny_Icon.svg.png"  class="icon" style="margin-left: 435px;border-radius:20px; margin-top: 50px;">
+
+	<img src="https://assets.materialup.com/uploads/afc301a2-4353-42ce-814d-5cedf422b6b5/md_twitter.png" class="icon">
+
+	<img src="https://cdn.osxdaily.com/wp-content/uploads/2017/02/instagram-icon.jpg" class="icon">
+
+	<img src="https://tse4.mm.bing.net/th?id=OIP.s234KzZaupkwWUwt-_fxtwHaHa&pid=Api&P=0&w=300&h=300" class="icon">
+
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" class="icon">
+
+	<img src="https://www.pinclipart.com/picdir/middle/451-4513778_contact-us-icon-png-clipart.png" class="icon">
+
+
+			<h5 style="margin-left: 400px;"> ___________________________________________________________________________________________</h5>
+
+			<br>
+			<h6 style="margin-left: 550px;">Design And Developed by <span style="font-family: sans-serif; font-weight: bold;color: blue">Engg.Shubham Singh Chouhan.</span> Copyright © </h6>
+</footer>
+</section>
+
+</body>
+</html>
