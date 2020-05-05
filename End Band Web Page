@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>End Band 2k19</title>
+
+	<link rel="stylesheet" type="text/css" href="animate.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+
+		nav{
+			background-color: #f7180c;
+			height:70px;
+			line-height: 70px;
+			width:100%;
+			text-align: center;
+			
+		}
+		
+		li{
+			list-style-type: none;
+			display: inline-block;
+			margin:20px;
+		}
+		a{
+			text-decoration: none;
+			color:white;
+			font-size: 13pt;
+			font-family: sans-serif;
+		}
+		a:hover{
+			color:blue;
+			text-decoration: underline;
+		}
+		.sec1{
+			background-image: url("");
+			background-size: cover;
+			height:650px;
+			width:100%;
+		}
+		.sec2{
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band8.jpg');
+			background-size: cover;
+			height: 750px;
+			width: 100%;
+		}
+		.sec3{
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band21.jpg');
+			background-size: cover;
+		}
+		.sec4{
+
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band17.jpg');
+			background-size: cover;
+		}
+		.sec5{
+
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band22.jpg');
+			background-size: cover;
+		}
+		.sec6{
+
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band15.jpg');
+			background-size: cover;
+		}
+		.sec7{
+
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band13.jpg');
+			background-size: cover;
+			height: 1300px;
+			width: 100%;
+		}
+		.sec8{
+
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band36.jpg');
+			background-size: cover;
+			height: 1300px;
+			width: 100%;
+			
+		}
+		.sec9{
+
+			background-image: url('C:/Users/shubham singh/Desktop/Html/End Band/Background Images/End_Band31.jpg');
+			background-size: cover;
+			height: 720px;
+			width: 100%;
+		}
+		.icon{
+			height:70px;
+			line-height: 40px;
+			padding: 20px;
+			border-radius: 50px;
+
+			
+		}
+
+	</style> 
+
+
+		
+</head>
+
+
+
+<body>
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-primary bg-warning">
+  <a class="navbar-brand" href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A">
+  	<img src="C:\Users\shubham singh\Desktop\Html\End Band\End Band\End_Band5.png"  style="height: 50px; widows: 50px; border-radius: 60px; "></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+ 
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Home">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#AboutUs">AboutUs</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Channel
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          	<a class="dropdown-item" href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A/featured">Youtube</a>
+          	<a class="dropdown-item" href="https://www.instagram.com/endband2k19/">Instgram</a>
+          	<a class="dropdown-item" href="https://www.facebook.com/endband2k19/">Facebook</a>
+          	<a class="dropdown-item" href="https://twitter.com/EndBand2k19">Twitter</a>
+          	<a class="dropdown-item" href="https://endband2k19.blogspot.com/">Blogger</a>
+ 
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Status Type
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#Status">Status</a>
+          <a class="dropdown-item" href="#Hot this week">Hot this Week</a>
+          <a class="dropdown-item" href="#Top 7 Songs">Top 7 Songs</a>
+          <a class="dropdown-item" href="#Mashup Songs">Mashup Songs</a>
+          <a class="dropdown-item" href="#Instagram Vlog">Instagram Vlog</a>
+          <a class="dropdown-item" href="#Another Amezing Videos">Another Amezing Videos</a>
+          
+        </div>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact Us">Contact Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+<section class="sec1" id="Home">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+
+<div class="carousel-inner">
+
+	<div class="carousel-item active">
+    	<a href="https://www.youtube.com/watch?v=-uTD-tjxW1Y">
+      	<img class="" src="C:\Users\shubham singh\Desktop\Html\End Band\Carousel\12,4,20HTW.jpg" alt="First slide" style="height: 650px; width: 100%;">
+      	<div class="carousel-caption d-none d-md-block">
+        	<h5 style="color: white;"><span style="color: blue">#HotVideos #MusicVideos #NewVideos</span>
+        		<br>
+				End Band - Hot This Week: April 12 , 2020 (The Biggest New Music Videos) | Top Trending Videos |
+			</h5>
+			
+			<p style="color: white;">•Apr 12, 2020</p>
+		</a>
+      	</div>
+    </div>
+
+    <div class="carousel-item ">
+    	<a href="https://www.youtube.com/watch?v=70AemouVgW8">
+      	<img class="" src="C:\Users\shubham singh\Desktop\Html\End Band\Carousel\Kangna vilayati.webp" alt="Second slide" style="height: 650px; width: 100%;">
+      	<div class="carousel-caption d-none d-md-block">
+        	<h5 style="color: white;"><span style="color: blue">#WhatsAppStatus #status #music</span>
+			<br>
+			Kangna Vilyati Song Status - Virgin Bhanupriya Urvashi Rautela Jyotica Tangri K, Ramji G | END BAND
+			</h5>
+
+			<p style="color: white;">•Apr 10, 2020</p>
+		</a>
+      	</div>
+    </div>
+
+    <div class="carousel-item">
+    	<a href="https://www.youtube.com/watch?v=jLKaWxooHkQ">
+      	<img class="" src="C:\Users\shubham singh\Desktop\Html\End Band\Carousel\dil apni hadon se song.jpg" alt="Third slide" style="height: 650px; width: 100%;">
+      	<div class="carousel-caption d-none d-md-block">
+        	<h5 style="color: white;"><span style="color: blue">#WhatsAppStatus #status #music</span>
+			<br>
+			Dil Apni Haddon Se Song Whatsapp Status - Virgin Bhanupriya Urvashi Rautela , Gautam G | END BAND
+			</h5>		
+			
+			<p style="color: white;">•Apr 8, 2020</p>
+		</a>
+      	</div>
+    </div>
+
+
+    <div class="carousel-item">
+    	<a href="https://www.youtube.com/watch?v=k1CMUYwYT4w">
+      	<img class="" src="C:\Users\shubham singh\Desktop\Html\End Band\Carousel\masakali 2.0 images.jfif" alt="Forth slide" style="height: 650px; width: 100%;">
+      	<div class="carousel-caption d-none d-md-block">
+        	<h5 style="color: white;"><span style="color: blue">#WhatsAppStatus #status #music</span>
+			<br>
+			Masakali 2.0 Song Whatsapp Status A.R. Rahman Sidharth M ,Tara Sutaria Tulsi K, Sachet T | END BAND
+			</h5>
+			
+			<p style="color: white;">•Apr 8, 2020</p>
+		</a>
+      	</div>
+    </div>
+
+
+    <div class="carousel-item">
+    	<a href="https://www.youtube.com/watch?v=x6qx14oNdD0">
+      	<img class="" src="C:\Users\shubham singh\Desktop\Html\End Band\Carousel\blue theme song images.jpg" alt="Fifth slide" style="height: 650px; width: 100%;">
+      	<div class="carousel-caption d-none d-md-block">
+        	<h5 style="color: white;"><span style="color: blue">#status #music #endband</span>
+			<br>
+			Blue THEME Song Status | Akshya Kumar | Blue | END BAND
+			</h5>
+			<p style="color: white;">•Apr 8, 2020</p>
+		</a>
+      	</div>
+    </div>
+
+   
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+
+  </a>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="AboutUs" class="sec2">
+	<h2 class="animated bounceInLeft" style="color: white; font-family: monospace;">|About Us</h2>
+
+		<div style="float: right; height: 120px; width: 150px; padding: 5px;">
+		<img src="C:\Users\shubham singh\Desktop\Html\End Band\End Band\End_Band7.jpg" style="float: right; height: 100px; width: 130px; padding: 10px;">
+		<h5 style="float: right; color: lightgreen; margin-right: 10px;">Since: 2019</h5>
+		</div>
+		<br>
+		
+
+		<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A" style="color: #e64e20">
+			<img class="animated heartBeat" src="C:\Users\shubham singh\Desktop\Html\End Band\End Band\End_Band new.jpg" alt="Image Here." style="margin-top: 25px; margin-left: 700px;  height: 150px; width: 150px;	box-shadow: 2px -8px 82px 72px rgba(194,39,78,1); border-radius: 220px;"><br>
+			<h3 class="animated bounceInRight" style="margin-top: 30px; margin-left: 690px; color: #fa7f05; font-family: sans-serif;">End_Band Music</h3>
+		</a>
+		
+			<marquee><h4 style="color: #f09816; font-family: serif;">!All Status Are Here!</h4></marquee>
+
+
+		
+	</center>
+
+	<br>
+	
+	<div class="animated slideInLeft" style="height: 400px; width: 600px; float: left; ">
+		<h5 style="font-family: serif; margin-left: 50px; color: #f02c0e; text-decoration: underline;">Purpose-</h5>
+			<ul style="color: black;">
+				<li style="font-size: 20px; color: white">-> Every new songs are here.</li>
+				<li style="font-size: 20px; color: white">-> We are promoting the celebrities.</li>
+				<li style="font-size: 20px; color: white">-> You can see Short & Intresting videos.</li>
+				<li style="font-size: 20px; color: white">-> Here you can enjoy Trending Songs, Hot This Week, Mashup Songs, Top 7 Songs, Instagram Vlog, End of the Year Etc.</li>
+			
+			</ul>
+	</div>
+
+	<div class="animated slideInLeft" style="height: 400px; width: 600px; float: right;  ">
+		<h5 style="font-family: serif; margin-left: 50px; color: #f02c0e; text-decoration: underline;">Achievement-</h5>
+			<ul style="color: black;">
+				<li style="font-size: 20px; color: white">-> 15+ Celebrities has visit us.</li>
+				<li style="font-size: 20px; color: white">-> 20k+ Successfully Views on our Channel.</li>
+				<li style="font-size: 20px; color: white">-> Verified account successfully on multiple social media.</li>
+				<li style="font-size: 20px; color: white">-> All social media account's more then 10k+ Followers.</li>
+			
+			</ul>
+	</div>
+
+	<br>
+	<br>
+	
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="sec3">
+	<h1 class="animated bounceInLeft" id="Status" style="color: white; font-family: monospace;">|Trending Status</h1>
+	<br>
+	<div class="conatiner">
+		<div class="row" style="margin-left: 25px;">
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=70AemouVgW8">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\Kangna vilayati.webp" alt="Card image cap" style="height: 165px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#WhatsAppStatus #status #music</span>
+				    		<br>
+							Kangna Vilyati Song Status - Virgin Bhanupriya Urvashi Rautela Jyotica Tangri K, Ramji G | END BAND
+							<br>
+							<br>
+							•Apr 10, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+
+					<a href="https://www.youtube.com/watch?v=jLKaWxooHkQ">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\dil apni hadon se song.jpg" alt="Card image cap" style="height: 165px; width: 100%;">
+
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#WhatsAppStatus #status #music</span>
+				    		<br>
+							Dil Apni Haddon Se Song Whatsapp Status - Virgin Bhanupriya Urvashi Rautela , Gautam G | END BAND
+							<br>
+							<br>
+							•Apr 8, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="card" style="width: 18rem; ">
+
+					<a href="https://www.youtube.com/watch?v=k1CMUYwYT4w">
+					<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\masakali 2.0 images.jfif" alt="Card image cap" style="height: 165px; width: 100%;">
+
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#WhatsAppStatus #status #music</span>
+				    		<br>
+							Masakali 2.0 Song Whatsapp Status A.R. Rahman Sidharth M ,Tara Sutaria Tulsi K, Sachet T | END BAND
+							<br>
+							<br>
+							•Apr 8, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+
+
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+
+					<a href="https://www.youtube.com/watch?v=x6qx14oNdD0">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\blue theme song images.jpg" alt="Card image cap" style="height: 165px; width: 100%;">
+
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#status #music #endband</span>
+				    		<br>
+							Blue THEME Song Status | Akshya Kumar | Blue | END BAND
+							<br>
+							<br>
+							<br>
+							<br>
+							•Apr 8, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row" style="margin-left: 25px;">
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=xi7hq6Vv9aE">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\Jinke liye song.jpeg" alt="Card image cap">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#status #music #endband
+				    	</span>
+				    	<br>
+						Jinke Liye Song Status Neha Kakkar Feat. Jaani B Praak Arvindr Khaira
+						<br>
+						<br>
+						<br>
+    					•Apr 8, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=KcCwoLSjfZs">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\dil tera song.jpg" alt="Card image cap" style="height: 161px; width: 100%">
+				  	<div class="card-body" >
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#status #music #endband
+				    	</span>
+				    	<br>
+						Dil Tera Song Status - Official Music Video Harshdeep Singh Bhavin Bhanushali Chinki Minki Yaar
+						<br>
+						<br>
+						•Apr 8, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="card" style="width: 18rem; ">
+					<a href="https://www.youtube.com/watch?v=Fgg0SdK_2cI">
+					<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\damn song.jpg" alt="Card image cap">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#status #music #endband
+				    	</span>
+				    	<br>
+						Damn Song Status Raftaar Ft. KR$NA Mr. Nair | END BAND
+						<br>
+						<br>
+						<br>
+						<br>
+						•Apr 8, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+
+
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=xkwHzAL47O4">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Trending Status\Wishlist song.jpg" alt="Card image cap">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#status #music #endband
+				    	</span>
+				    	<br>
+						Dino James – Wishlist Song Status feat Kaprila | Official Music Video | END BAND
+						<br>
+						<br>
+						<br>
+						•Apr 5, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A/search?query=status"><h3 class="animated slideInLeft" style="color: lightpink; margin-left: 50px;  font-family: fantasy;">More Items......</h3></a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="sec4">
+	<h1 class="animated bounceInLeft" id="Hot this week" style="color: white; font-family: monospace;">|Hot This Week</h1>
+	<br>
+	<div class="conatiner">
+		<div class="row" style="margin-left: 25px;">
+
+			<div class="col-1">	
+			</div>
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=-uTD-tjxW1Y">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Hot This Week\12,4,20HTW.jpg" alt="Card image cap" style="height: 160px; width: 100%;">
+				  	<div class="card-body">
+					    <p class="card-text" style="color: black;"><span style="color: blue">#HotVideos #MusicVideos #NewVideos</span>
+					    	<br>
+							End Band - Hot This Week: April 12 , 2020 (The Biggest New Music Videos) | Top Trending Videos |
+							<br>
+							<br>
+							•Apr 12, 202
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-1">	
+			</div>
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=C18iviP0_vc">
+
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Hot This Week\5,4,20HTW.jpg" alt="Card image cap" style="height: 160px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#HotVideos #MusicVideos #NewVideos</span>
+				    		<br>
+							End Band - Hot This Week: April 5 , 2020 (The Biggest New Music Videos) | Top Trending Videos |
+							<br>
+							<br>
+							•Apr 5, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-1">
+			</div>
+
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=X8ukjGLdawA">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Hot This Week\29,3,20HTW.jpeg" alt="Card image cap" style="height: 160px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#HotVideos #MusicVideos 
+				    		#NewVideos</span>
+				    		<br>
+							End Band - Hot This Week: March 29, 2020 (The Biggest New Music Videos) | Top Trending Videos |
+							<br>
+							<br>
+							•Mar 29, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+	<br>
+
+		<div class="row" style="margin-left: 25px;">
+
+			<div class="col-1">	
+			</div>
+			
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=eqC63UQilIk">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Hot This Week\22,3,20HTW.webp" alt="Card image cap" style="height: 160px; width: 100%;">
+				  	<div class="card-body" >
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#HotVideos #MusicVideos 			#NewVideos</span>
+				    		<br>
+							End Band - Hot This Week: March 22, 2020 (The Biggest New Music Videos) | Top Trending Videos |
+							<br>
+							<br>
+							•Mar 22, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-1">	
+			</div>
+
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=lCmeKqYt5P4">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Hot This Week\15,3,20HTW.webp" alt="Card image cap" style="height: 160px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#HotVideos #MusicVideos 		#NewVideos</span>
+				    		<br>
+							End Band - Hot This Week: March 15, 2020 (The Biggest New Music Videos) | Top Trending Videos |
+							<br>
+							<br>
+							•Mar 15, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+
+
+			<div class="col-1">	
+			</div>
+
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=Q7KNCcEyPac">
+
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Hot This Week\8,3,20HTW.jpg" alt="Card image cap" style="height: 160px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#HotVideos #MusicVideos 		#NewVideos</span>
+				    		<br>
+							End Band - Hot This Week: March 8, 2020 (The Biggest New Music Videos) | Top Trending Videos |
+							<br>
+							<br>
+							•Mar 8, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			
+
+			
+		</div>
+	</div>
+	<br>
+	<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A/search?query=hot+this+week"><h3 class="animated slideInLeft" style="color: lightpink; margin-left: 50px;  font-family: fantasy;">More Items......</h3></a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<section class="sec5">
+	<h1 id="Top 7 Songs" class="animated bounceInLeft" style="color: white;font-family: monospace;">|Top 7 Songs -</h1>
+	<br>
+	<div class="conatiner">
+		<div class="row" style="margin-left: 100px;">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=L67FSD3sc-w">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Top 7 songs\neha-kakkars(2).jpg" alt="Card image cap" style="height: 190px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">NEHA_KAKKER</span>_Top-7_Hit_Videos_Upto_2019 || END_BAND Top-7
+				    		<br>
+				    		<br>
+				    		<br>
+							•Dec 13, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=vXx_bahtmwY">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Top 7 songs\yo-yo-honey-singh.jpg" alt="Card image cap" style="height: 190px; width: 100%">
+				  	<div class="card-body" >
+				    	<p class="card-text" style="color: black;"><span style="color: blue">YO YO HONEY SINGH</span> 		Top-7 Hit Videos Upto 2019 || END BAND Top-7
+							<br>
+							<br>
+							<br>
+							•Dec 16, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem; ">
+					<a href="https://www.youtube.com/watch?v=iLtQtMwoNj0">
+					<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Top 7 songs\sunanda sharma(2).jpg" alt="Card image cap" style="height: 190px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">Sunanda Sharma</span> 			Top-7 Hit Videos || END BAND Top-7
+				    		<br>
+				    		<br>
+				    		<br>
+				    		<br>
+				    		
+							•Dec 21, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		
+		<div class="row" style="margin-left: 100px;">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=lfBrd6o7L0s">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Top 7 songs\badshah-feature.webp" alt="Card image cap" style="height: 190px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">Badshah</span> Top-7 Hit 		Videos || END BAND Top-7
+				    		<br>
+				    		<br>
+				    		<br>
+							•Dec 19, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=0xCYKepgTpM">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Top 7 songs\Taylor Swift.jfif" alt="Card image cap" style="height: 190px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;">||<span style="color: blue">TAYLOR SWIFT</span> 				Top-7 Hit Songs || END BAND Top-7 ||
+				    		<br>
+				    		<br>
+				    		<br>
+							•Dec 11, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=diqDl0PrXsc">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Top 7 songs\GuruRandhawa.jpg" alt="Card image cap" style="height: 190px; width: 100%;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">Guru_Randhawa</span>				_Top-7_Hit_Videos_ || END_BAND Top-7
+				    		<br>
+				    		<br>
+				    		
+				    		
+							•Dec 12, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A/search?query=top+7+songs"><h3 class="animated slideInLeft" style="color: lightpink; margin-left: 50px; font-family: fantasy;">More Items......</h3></a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+<section class="sec6">
+	<h1 id="Mashup Songs" class="animated bounceInLeft" style="color: white; font-family: monospace;">|Mashup Songs>>></h1>
+	<br>
+	<div class="conatiner">
+		<div class="row" style="margin-left: 25px;">
+			<div class="col-1">
+			</div>
+
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=6r1tL-g25r8">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Mashup Songs\Holi Mashup 2020.jpg" alt="Card image cap">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#holi #holimashup #holi2020mashup</span>
+				    		<br>
+							Holi Mashup 2020 | END BAND | Holi Bollywood Songs | Holi Special Party Songs
+							<br>
+							<br>
+							•Mar 7, 2020
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-1">	
+			</div>
+			
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=j5mSmd5Z1hY">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Mashup Songs\Bollywood Party Mashup 2019.jpg" alt="Card image cap" style="height: 161px; width: 100%">
+				  	<div class="card-body" >
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#bollywood #love #india
+				    	</span>
+				    	<br>
+							END BAND 15 | BOLLYWOOD MASHUP 2019 | MASHUP 2019 | NEW SONGS OF 2019
+							<br>
+							<br>
+							•Apr 1, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-1">	
+			</div>
+
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=vzwO2gBTqdc">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Mashup Songs\Love Mashup 2019.jpg" alt="Card image cap">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#mashup2019 #song2019 #MashUps</span>
+				    		<br>
+							| END BAND 31 Ed. 😍 || Romantic- Love Mashup 😘 || End Band Mashups 💕 |
+							<br>
+							<br>
+							•Aug 13, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+
+		</div>
+	
+
+	<br>
+		
+
+
+
+		<div class="row" style="margin-left: 25px;">
+			<div class="col-2">	
+			</div>
+
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=SNdwKXomy0o">
+
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Mashup Songs\Bollywood & Hollywood Mashup.jpg" alt="Card image cap" style="height: 162px;">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#love #mashup #tseries
+				    	</span>
+				    	<br>
+							END BAND 19 | HOLLYWOOD AND BOLLYWOOD MASHUP | SONGS | REMIX
+							<br>
+							<br>
+							•Apr 22, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-2">	
+			</div>
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+					<a href="https://www.youtube.com/watch?v=1mQtzavTpDk&pbjreload=10">
+				  	<img class="card-img-top" src="C:\Users\shubham singh\Desktop\Html\End Band\Mashup Songs\Hindi & English Party Mashup.jpg" alt="Card image cap">
+				  	<div class="card-body">
+				    	<p class="card-text" style="color: black;"><span style="color: blue">#music #genre #song</span>
+				    		<br>
+							END BAND 17 | ENGLISH & HINDI MASHUP / SONGS
+							<br>
+							<br>
+							<br>
+							•Apr 9, 2019
+						</p>
+					</a>
+				  </div>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<br>
+	<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A/search?query=mashup"><h3 class="animated slideInRight" style="color: lightpink; margin-left: 50px; font-family: fantasy;">More Items......</h3></a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="sec7" id="Instagram Vlog">
+
+	<h1 class="animated bounceInLeft" style="color: white; font-family: monospace;">|Instagram Vlog</h1>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 30px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=WrcoCoLV7x4">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Instagram Vlog\Sara-Ali-Khan-3.webp" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#SaraAliKhan #Vlog #JBL</span>
+			<br>
+			Sara Ali Khan Vlog || JBL || Short Video || END BAND
+			<br>
+			<br>
+			<br>
+			•Mar 15, 2020
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 650px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=3jPn6f6Ddck">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Instagram Vlog\Jacqueline-Fernandez (2).jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#Jacqueline #music #endband</span>
+			<br>
+			Jacqueline Fernandez Mermaid hulahoop magic Robot Popular TikTok Musically | End Band Vlog
+			<br>
+			<br>
+			<br>
+			•Mar 3, 2020</h1>
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 30px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=QATghjVwQas">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Instagram Vlog\surabhi-samriddhi.jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#Chinki Minki #music #endband</span>
+			<br>
+			Chinki Minki on Instagram First time dancing in Heels Vlog
+			<br>
+			<br>
+			<br>
+			•Dec 17, 2019</h1>
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 650px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=uZEQVWwmBXw">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Instagram Vlog\nora-fatehi.jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#Nora Fatehi #music #endband</span>
+			<br>
+			Nora Fatehi on Instagram Vlog : Just a lil tease Garmi song out TOMORROW
+			<br>
+			<br>
+			<br>
+			•Dec 25, 2019</h1>
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 30px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=RdBAdC90Skw">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Instagram Vlog\ss3.jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#ShirleySetia #music #endband</span>
+			<br>
+			Muqabla Shirley Setia Intragram Vlog 😍 {19/1/2020}
+			<br>
+			<br>
+			<br>
+			•Jan 19, 2020</h1>
+		</a>
+	</div>
+
+	<br>
+	
+	<div>
+	<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A/search?query=instagram+vlog"><h3 class="animated bounceInLeft" style="color: #fc6603; float: right; margin-right: 40px; font-family: cursive;">More Items......</h3>
+	</a>
+	
+	</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="sec8" id="Another Amezing Videos">
+
+	<h1 class="animated bounceInLeft" style="color: white; font-family: monospace;">|Another Amezing Videos</h1>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 30px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=Ei7V7ixzDbE">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Another Amezing Videos\End of the year songs,mashup 2019.jpg" style="height:200px;width:240px;float: left;">
+			<h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#HotVideos #MusicVideos #NewVideos</span>
+				<br>
+				End of year Songs / Mashups 2019 || End Of Memories Songs || End Band ||
+				<br>
+				<br>
+				•Dec 30, 2019
+			</h1>
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 650px; border:2px dotted white;">
+		<a href="youtube.com/watch?v=YE0qngMfrNk">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Another Amezing Videos\Akshay Kumar.jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#Akshay kumar #songs #End Band</span> 
+				<br>
+				Akshya Kumar Evergreen-7 Songs || END BAND Evergreen Songs || Old Bollywood Akshya Kumar Hit ||
+				<br>
+				<br>
+				•Premiered Dec 7, 2019
+			</h1>
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 30px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=Zi8v-tACW2k">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Another Amezing Videos\COVID-19.jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#GoCorona #Corona #endband</span>
+			<br>
+				Follow 21 Days Lock Down 🔥 Be safe and stay in your Home. 😷 🤧 ❌ No more Corona ~ END BAND
+				<br>
+				<br>
+				•Mar 25, 2020
+			</h1>
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 650px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=BTCuXO-w_nY">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Another Amezing Videos\Black Widow Teaser.jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#Marvel Studio #Black Widow #End Band</span>
+			<br>
+				Marvel_Studios'_Black_Widow_-_Official_Teaser_Trailer X Sahoo-Bang-Bang_Music
+				<br>
+				<br>
+				<br>
+				•Dec 4, 2019</h1>
+		</a>
+	</div>
+
+	<br>
+
+	<div style="height: 210px; width: 50%; margin-left: 30px; border:2px dotted white;">
+		<a href="https://www.youtube.com/watch?v=ZFCUnBSg2zY">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\Another Amezing Videos\shivaji.jpg" style="height:200px;width:240px;float: left;"><h1 style="font-size: 15pt; font-family: sans-serif;">
+			<span style="color: blue">#Shivaji #music #endband</span>
+			<br>
+				New Chhatrapti Shivaji Maharaj Song/Mashup 2020 |END BAND 5 EDITION |
+				<br>
+				<br>
+				<br>
+				•Feb 19, 2019
+			</h1>
+		</a>
+	</div>
+
+	<br>
+	
+	<div>
+	<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A/search?query=instagram+vlog"><h3 class="animated bounceInLeft" style="color: #fc6603; float: right; margin-right: 40px; font-family: cursive;">More Items......</h3>
+	</a>
+	
+	</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="sec9" id="Contact Us">
+	
+	<div>
+	<center>
+		
+		<h1 style="color: black; font-family: monospace;" class="animated bounceInRight" id="Contact Us">|| Contact Us ||</h1><br>
+
+	</center>
+
+
+	<img src="C:\Users\shubham singh\Desktop\Html\End Band\End Band\End_Band6.jpg" class="animated bounceInRight" style="height: 250px; width: 350px;float: right; margin-right: 30px;">
+	<h4 class="animated bounceInRight" style="float: right; margin-right: 30px; text-decoration: underline; color: white; font-family: sans-serif; font size: 15pt; ">Our Policy - </h4>	
+
+	<br>
+
+
+	<div style="height: 100px; width: 300px; float: right; margin-right: 60px;">	
+		<center>	
+			<img class="animated bounce" src="C:\Users\shubham singh\Desktop\Html\End Band\icons\gmail_icon2.png" style="height: 90px;width: 90px;border-radius: 30px;">
+		</center>
+		<h5 style="margin-left: 40px;">endbandinfo@gmail.com</h5></a>
+	</div>
+
+
+
+	<div id="Call Us" class="animated bounce" style="height: 100px; width: 320px;  margin-left: 30px; ">
+		<center>
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\Call_us logo.png" style="height: 90px;width: 90px; border-radius: 30px;"><br><h5 style="float: right;margin-right: 30px;"> 7389753806</h5><h5 style="float: right;">9589642562 |</h5>
+		</center>
+	</div>
+
+
+
+		<br>
+
+
+		<div class="animated bounceInLeft" style="margin-left: 10px;">
+		<h3>Description:</h3>
+		<p>
+			OFFICIAL SONGS/MASHUPS/STATUS/EVER-GREEN-SONGS/<br> COMEDY-VIDEOS/VLOGS/TEASER/JUKEBOX are Here,<br> Stay Tune With Us ♥..
+		</p>
+		</div>
+
+		<br>
+
+		<div class="animated bounceInLeft" style="margin-left: 10px;">
+		<h3>Members:</h3>
+		<p>
+			Developer & CEO : Devesh Dhoble
+			<br>
+			Creator  &  CTO : Shubham Singh Chouhan
+			<br>
+			Ad Partner : TIH { The Innvotion Hub }
+			<br>
+			Founder : Trending Research
+			<br>
+		</div>
+
+		</p>
+		<br>
+
+		<footer style="height:100px;width:100%;">
+			<a href="https://www.facebook.com/endband2k19/">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\Facebook_icon.jpg"  style="margin-left: 600px;border-radius:20px; height: 30px; line-height: 40px;">
+			</a>
+
+			<!-- <a href="https://web.whatsapp.com/">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\Whatsapp2.webp" class="icon" style="margin-left: 5px;">
+			</a> -->
+
+			<a href="https://twitter.com/EndBand2k19">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\twitter.webp" class="icon">
+			</a>
+
+			<a href="https://www.instagram.com/endband2k19/">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\Instagram.png" class="icon">
+			</a>
+
+			<!-- <a href="">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\LinkedIn Icon.png" class="icon">
+			</a> -->
+
+			<a href="https://www.youtube.com/channel/UCbiOBBTYpVLjgTXjIaiel2A">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\Youtube2.png" class="icon">
+			</a>
+
+			<a href="https://endband2k19.blogspot.com/">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\blogger-logo-icon.png" class="icon">
+			</a>
+
+			<!-- <a href="#Call Us">
+			<img src="C:\Users\shubham singh\Desktop\Html\End Band\icons\Contact-Us-Icon.png" class="icon">
+			</a> -->
+
+
+			<h5 style="margin-left: 450px;"> ___________________________________________________________________________</h5>
+
+			<br>
+			<h6 style="margin-left: 485px;">Design And Developed by <span style="font-family: sans-serif; font-weight: bold;color: blue">Engg.Shubham Singh Chouhan.</span> Copyright © </h6>
+		</footer>
+
+		
+	</div>
+
+</section>
+
+<div>
+
+</body>
+</html>
